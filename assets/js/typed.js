@@ -4,7 +4,7 @@ var typed = new Typed("#typedhack", {
     'JCHS Hack Club'
     ],
     backSpeed: 50,
-    backDelay: 2000,
+    backDelay: 1500,
     typeSpeed: 60,
     smartBackspace: true
 

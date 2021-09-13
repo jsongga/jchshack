@@ -2,7 +2,9 @@
   "use strict"; // Start of use strict
 
   var mainNav = document.querySelector('#mainNav');
-
+  
+  var hackLogo = document.querySelector('#hackLogo')  
+  
   if (mainNav) {
 
     var navbarCollapse = mainNav.querySelector('.navbar-collapse');
@@ -30,8 +32,10 @@
 
       if (scrollTop > 100) {
         mainNav.classList.add("navbar-shrink");
+        hackLogo.src = "assets/img/logos/red.svg";
       } else {
         mainNav.classList.remove("navbar-shrink");
+      hackLogo.src = "assets/img/logos/white.svg";
       }
     };
     // Collapse now if page is not at top
