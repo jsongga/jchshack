@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jchshack/static/css/main.b157a104.css",
+    "main.js": "/jchshack/static/js/main.60a81334.js",
+    "index.html": "/jchshack/index.html",
+    "main.b157a104.css.map": "/jchshack/static/css/main.b157a104.css.map",
+    "main.60a81334.js.map": "/jchshack/static/js/main.60a81334.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b157a104.css",
+    "static/js/main.60a81334.js"
+  ]
+}
