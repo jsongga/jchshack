@@ -1,0 +1,23 @@
+.information {
+    flex: 50%;
+    /*margin: 5rem;*/
+}
+
+.spacing {
+    margin-left: 4rem;
+}
+
+.heading {
+    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    font-size: 100px;
+    font-family: 'Concert One', cursive;
+    margin: 5px 0 5px 0;
+}
+
+.heading:hover {
+    -webkit-text-stroke-color: #ff8c37;
+    -webkit-text-fill-color: #ff8c37; /* Will override color (regardless of order) */
+    cursor: pointer;
+}
