@@ -39,6 +39,7 @@ export default function Navbar() {
     return <ThemeProvider theme={trigger ? scrollTheme : theme}>
         <AppBar color={"background"}>
             <Toolbar sx={{backgroundColor: trigger ? "white" : "transparent"}}>
+                {/*<Box container justifyContent={"space-between"}></Box>*/}
                 <Typography flexGrow={1}>JCHS Hack Club</Typography>
 
                 <Grid>

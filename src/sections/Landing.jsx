@@ -38,7 +38,8 @@ function Heading(props) {
             typedRef={(typed) => setAnimation(typed)}
             strings={[props.text]}
             typeSpeed={SPEED}
-            showCursor={props.start}
+            showCursor={animation && animation.isPaused}
+            cursorChar={"cdn"}
             onComplete={props.onComplete}
             className={"headings " + props.className}
         />

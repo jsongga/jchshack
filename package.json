@@ -1,7 +1,7 @@
 {
   "name": "hack-club-website",
   "version": "0.1.0",
-  "homepage": "https://jsongga.github.io/jchshack/",
+  "homepage": "jchs.hackclub.com",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
